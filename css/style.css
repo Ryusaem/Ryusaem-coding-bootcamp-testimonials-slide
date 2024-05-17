@@ -1,0 +1,100 @@
+:root {
+  --color-base-primary: hsl(240, 38%, 20%);
+  --color-base-secondary: hsl(240, 18%, 77%);
+
+  --color-base-text: hsl(217, 12%, 63%);
+  --font-size-text: 1.5rem;
+}
+
+/* --- GLOBAL RESET --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url("/images/pattern-curve.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background-repeat: no-repeat; */
+}
+
+.container {
+  display: flex;
+  margin-top: auto;
+  padding: 5rem;
+  font-size: var(--font-size-text);
+}
+
+.profile {
+  width: 45%;
+  height: 45%;
+}
+
+.box {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.quote {
+  width: 40vw;
+  color: var(--color-base-primary);
+}
+
+.box-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/images/pattern-quotes.svg");
+  background-repeat: no-repeat;
+}
+
+.box-name-job {
+  margin-top: 1.7rem;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.job {
+  color: var(--color-base-text);
+  font-weight: 400;
+}
+/* --- FOOTER --- */
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  color: var(--color-base-primary);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.footer a {
+  /* color: var(--color-base-primary-green); */
+  text-decoration: none;
+  color: var(--color-base-primary);
+}
+
+.fa-github {
+  /* color: var(--color-base-primary-green); */
+  margin-left: 0.5rem;
+}
