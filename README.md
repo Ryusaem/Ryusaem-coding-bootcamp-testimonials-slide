@@ -1,6 +1,7 @@
 # Frontend Mentor - Coding bootcamp testimonials slider
 
 ![Design preview for the Coding bootcamp testimonials slider coding challenge](./design/desktop-preview.jpg)
+![Coding bootcamp challenge=](https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL)
 
 ## Table of contents
 
@@ -35,14 +36,14 @@ template
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Ryusaem/js-interactive-rating-component)
-- Live Site URL: [Github Live Demo](https://ryusaem.github.io/js-interactive-rating-component/)
+- Solution URL: [GitHub](https://github.com/Ryusaem/Ryusaem-coding-bootcamp-testimonials-slide)
+- Live Site URL: [Github Live Demo](https://ryusaem.github.io/Ryusaem-coding-bootcamp-testimonials-slide/)
 
 ## My process
 
 Total:
 
-    - design/wireframe: xx min
+    - design/wireframe: 10 min +
     - coding/implementation: xx min
     - documentation/README.md: xx min
     - total: xx minutes
