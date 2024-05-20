@@ -128,12 +128,6 @@ body {
   height: 100%;
 }
 
-.carousel-button:hover {
-  /* outline: none; */
-  background-color: orange;
-  fill: red;
-}
-
 .carousel-button:first-of-type {
   left: 10px;
 }
