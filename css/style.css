@@ -28,7 +28,7 @@ body {
   position: relative; /* Allows the button to be positioned relative to the container */
   display: flex;
   flex-direction: column;
-  margin-top: var(--margin);
+  margin-top: auto;
   overflow: hidden;
   max-width: 90%;
 }
@@ -224,9 +224,7 @@ body {
   }
 
   .testimonial-image .avatar {
-    /* height: 150%; */
     width: 85%;
-    /* transform: scale(1.2); */
   }
 
   .testimonial-button {
