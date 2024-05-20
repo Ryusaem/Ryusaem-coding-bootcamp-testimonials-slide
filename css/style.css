@@ -15,76 +15,65 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-image: url("/images/pattern-curve.svg");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: 40%;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
-  /* background-repeat: no-repeat; */
-}
-
-.container {
-  display: flex;
-  margin-top: auto;
-  padding: 5rem;
-  font-size: var(--font-size-text);
-}
-
-.profile {
-  width: 40%;
-  height: 40%;
-  position: relative;
-  right: 3.5rem;
-}
-
-.background-image {
-  position: absolute;
-  top: 35px;
-  left: 470px;
-  width: 45%;
-  height: 80%;
-  z-index: -1; /* to place the image behind the profile image */
-}
-
-.box {
-  display: flex;
-  /* flex-direction: column; */
-}
-
-.quote {
-  width: 45vw;
-  color: var(--color-base-primary);
-  position: relative;
-  z-index: 1;
-}
-
-.box-quote {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  background-image: url("/images/pattern-quotes.svg");
-  background-position: 14vh 5vw;
-  background-size: 19%;
-  background-repeat: no-repeat;
+  align-items: center;
+  height: 100vh;
 }
 
-.box-name-job {
-  margin-top: 1.7rem;
+.testimonial-container {
   display: flex;
-  gap: 0.5rem;
-  font-size: 1rem;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 90%;
+  position: relative;
 }
 
-.name {
-  font-weight: 700;
+.testimonial-text {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
-.job {
+.testimonial-author {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.testimonial-author span {
+  font-weight: normal;
   color: var(--color-base-text);
-  font-weight: 400;
 }
+
+.testimonial-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.testimonial-image .avatar {
+  border-radius: 50%;
+  max-width: 80%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-image .pattern-bg {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
 /* --- FOOTER --- */
 
 .footer {
